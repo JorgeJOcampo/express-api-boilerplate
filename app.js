@@ -16,7 +16,7 @@ app.use(cors());
 
 app.use('/users', usersRouter);
 app.use('/', (req, res) =>
-  res.send({ message: 'Application running in mode!' })
+  res.send({ message: `Application running in ${process.env.NODE_ENV} mode!` })
 );
 
 module.exports = app;

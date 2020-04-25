@@ -1,4 +1,3 @@
-const debug = require('debug')('express-api-boilerplate:server');
 const http = require('http');
 const app = require('../app');
 
@@ -10,9 +9,9 @@ const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 const onListening = () => {
-  const addr = server.address();
-  const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr.port}`;
-  debug(`Listening on ${bind}`);
+  console.log(
+    `Application running on port ${port} in ${process.env.NODE_ENV} mode!`
+  );
 };
 
 const onError = (error) => {
