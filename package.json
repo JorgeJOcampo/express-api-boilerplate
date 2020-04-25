@@ -7,6 +7,7 @@
     "dev": "nodemon -r ./node_modules/dotenv-safe/config.js ./bin/www"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "~4.17.1",
@@ -14,7 +15,6 @@
   },
   "devDependencies": {
     "dotenv-safe": "^8.2.0",
-
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "^6.11.0",

@@ -1,11 +1,5 @@
 {
   "printWidth": 80,
   "singleQuote": true,
-  "trailingComma": "none",
-  "overrides": [
-    {
-      "files": "*.js",
-      "options": { "parser": "babel" }
-    }
-  ]
+  "trailingComma": "none"
 }
