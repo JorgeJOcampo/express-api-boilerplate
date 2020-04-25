@@ -1,0 +1,16 @@
+node_modules/
+.git/
+.vscode/
+coverage/
+
+.dockerignore
+Dockerfile
+
+.gitignore
+.env
+.env.development
+.env.local
+.env.stage
+.env.production
+.eslintrc.json
+.prettier.json
