@@ -48,7 +48,15 @@ yarn start
 ```
 
 ### With Docker
+```
+# Build docker 
+docker build -t express-api .
 
+# Run docker
+docker run -p 3000:3000 express-api
+```
+
+### With docker-compose
 ```
 docker-compose up
 ```
